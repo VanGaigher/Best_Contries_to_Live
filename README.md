@@ -1,8 +1,7 @@
 <p align="center">
-  <img src="![OIP](https://github.com/VanGaigher/Best_Contries_to_Live/assets/127983483/7a68bf97-18d2-40d5-a232-ac2a1afc9823)" alt="Descrição da imagem">
+  ![OIP](https://github.com/VanGaigher/Best_Contries_to_Live/assets/127983483/7a68bf97-18d2-40d5-a232-ac2a1afc9823)
 </p>
 
-![OIP](https://github.com/VanGaigher/Best_Contries_to_Live/assets/127983483/7a68bf97-18d2-40d5-a232-ac2a1afc9823)
 
 # Happiness 2024: An Emotional World Snapshot
 
