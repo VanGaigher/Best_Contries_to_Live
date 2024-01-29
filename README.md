@@ -63,4 +63,6 @@ Observing the graph, we see a negative linear correlation, but with not very str
 
 ![Captura de ecrã 2024-01-26 142822](https://github.com/VanGaigher/Best_Contries_to_Live/assets/127983483/5bed9f3d-997d-4568-a06e-e4ca346942fd)
 
+## Nexts steps
 
+Is it possible to preview what the World Happiness Index would be if some information about certain features, such as HDI level, population growth rate, and population density, were known? This will be our next step.
