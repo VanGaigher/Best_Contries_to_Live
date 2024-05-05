@@ -63,6 +63,26 @@ Observing the graph, we see a negative linear correlation, but with not very str
 
 ![Captura de ecrã 2024-01-26 142822](https://github.com/VanGaigher/Best_Contries_to_Live/assets/127983483/5bed9f3d-997d-4568-a06e-e4ca346942fd)
 
-## Nexts steps
+## Machine Learning model to predict the World Happiness Index
 
-Is it possible to preview what the World Happiness Index would be if some information about certain features, such as HDI level, population growth rate, and population density, were known? This will be our next step.
+Is it possible to preview what the World Happiness Index would be if some information about certain features, such as HDI level, population growth rate, and population density, were known? IN this part of the study we develop some machine learning model to predict the target using some of the features. 
+
+Initially, we explored and prepared the dataset, eliminating features that were not relevant to our objective, such as population, country, and region.
+
+While analyzing the correlation between the remaining features and the happiness index, we observed that variables like population growth rate and Human Development Index (HDI) had significant relationships with the target index.
+
+![image](https://github.com/VanGaigher/Best_Countries_to_Live/assets/127983483/d83fcf85-123b-4cf8-b8c1-6f29af203c4c)
+
+
+To ensure the quality of the model, we checked for multicollinearity among the selected features, which indicated a low correlation between them. We then built multiple linear regression models, testing different transformations of the target variable. We opted to use a Box-Cox transformation as it provided a more suitable distribution of residuals.
+
+The evaluation of the model revealed a coefficient of determination (R-squared) of 0.652, indicating that approximately 65.2% of the variability in the World Happiness Index was explained by the independent variables included in the model. Additionally, the F-test was significant, suggesting that at least one of the independent variables significantly influenced the dependent index.
+
+![image](https://github.com/VanGaigher/Best_Countries_to_Live/assets/127983483/6b6ecac6-c08c-4587-bbcc-093fa32c094d)
+
+
+The coefficients for HDI and population growth rate were deemed significant and positively associated with the World Happiness Index. Although some discrepancies were identified regarding the assumptions of linear regression, such as the normality of residuals, the model was considered promising in terms of its predictive capability.
+
+However, further validation of the model is recommended to enhance its accuracy and reliability
+
+
