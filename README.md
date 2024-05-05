@@ -76,13 +76,10 @@ While analyzing the correlation between the remaining features and the happiness
 
 To ensure the quality of the model, we checked for multicollinearity among the selected features, which indicated a low correlation between them. We then built multiple linear regression models, testing different transformations of the target variable. We opted to use a Box-Cox transformation as it provided a more suitable distribution of residuals.
 
-The evaluation of the model revealed a coefficient of determination (R-squared) of 0.652, indicating that approximately 65.2% of the variability in the World Happiness Index was explained by the independent variables included in the model. Additionally, the F-test was significant, suggesting that at least one of the independent variables significantly influenced the dependent index.
+The evaluation of the model revealed a coefficient of determination (R-squared) of 0.664, indicating that approximately 66.4% of the variability in the World Happiness Index was explained by the independent variables included in the model. Additionally, the F-test was significant, suggesting that the model explains a significant amount of the variability in the World Happiness Index even after adjusting for the number of variables.
 
 ![image](https://github.com/VanGaigher/Best_Countries_to_Live/assets/127983483/6b6ecac6-c08c-4587-bbcc-093fa32c094d)
 
 
-The coefficients for HDI and population growth rate were deemed significant and positively associated with the World Happiness Index. Although some discrepancies were identified regarding the assumptions of linear regression, such as the normality of residuals, the model was considered promising in terms of its predictive capability.
-
-However, further validation of the model is recommended to enhance its accuracy and reliability
-
+Overall, this analysis suggests that both population growth rate and HDI are important predictors of the World Happiness Index in 2022. However, it's worth further investigating the potential non-normality of the residuals and considering the inclusion of other variables that may better explain perceived happiness
 
